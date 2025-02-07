@@ -14,7 +14,7 @@ ul {
 .header .header-nav-link {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -43,7 +43,16 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.nav-item-link:hover,
+.nav-item-link:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
 .address {
+  font-style: normal;
 }
 .addredd-list {
 }
@@ -57,13 +66,22 @@ ul {
   color: #434455;
   text-decoration: none;
 }
+.address-link:hover,
+.address-link:focus {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
 .first {
   background: #2e2f42;
 }
 .first-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -75,6 +93,7 @@ ul {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  cursor: pointer;
 }
 .first-btn:hover,
 .first-btn:focus {
@@ -83,6 +102,7 @@ ul {
 .services {
 }
 .services-title {
+  color: #2e2f42;
 }
 .services-list {
 }
@@ -102,15 +122,19 @@ ul {
   color: #434455;
 }
 .team {
+  background-color: #f4f4fd;
 }
 .team-titel {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-title {
   font-weight: 500;
@@ -132,9 +156,11 @@ ul {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .portfolio-list {
 }
@@ -157,12 +183,13 @@ ul {
   background: #2e2f42;
 }
 .footer-link {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
   text-decoration: none;
 }
 .footer-text {
@@ -172,12 +199,11 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.footer-link .nav-web {
-  font-family: 'Raleway', sans-serif;
+.footer-link .nav-studio {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }

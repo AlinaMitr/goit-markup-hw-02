@@ -1,31 +1,32 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
-  background-color: #f4f4fd;
+  color: #434455;
+  background-color: #ffffff;
 }
 ul {
   list-style-type: none;
 }
-.header {
+.header .header-nav-link {
+  font-family: 'Raleway', sans-serif;
 }
 .header-nav {
 }
-.header-nav-link {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.header-nav-link .nav-web {
-  font-family: 'Raleway', sans-serif;
+.header .header-nav-link {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
+}
+.header-nav-link .nav-studio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 .header-nav-list {
   font-weight: 700;

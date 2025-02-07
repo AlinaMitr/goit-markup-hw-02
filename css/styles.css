@@ -114,6 +114,7 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .services-text {
   font-weight: 400;
@@ -123,7 +124,7 @@ ul {
   color: #434455;
 }
 .team {
-  background-color: #f4f4fd;
+  background: #f4f4fd;
 }
 .team-titel {
   font-weight: 700;
@@ -139,6 +140,7 @@ ul {
   color: #2e2f42;
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-title {
   font-weight: 500;
